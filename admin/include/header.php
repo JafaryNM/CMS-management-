@@ -6,7 +6,7 @@
 				</a>
 
 			  	<a class="brand" href="index.html">
-			  		Complaint Management System-(CMS) | Admin
+			  		 CBE Complaint Management System-(CMS) | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">

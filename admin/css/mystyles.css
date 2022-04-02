@@ -1,0 +1,27 @@
+h1{
+    font-size: 40px;
+    color: blue;
+}
+.sidebar {
+    background: #42b3e5;
+    padding: 60px 30px;
+    box-shadow: 0px 2px 3px 2px rgb(0 0 0 / 10%);
+    border-radius:7px;
+}
+.widget-menu>li>a {
+    background-color: #017bb1;
+    color: white;
+    
+}
+.widget-menu>li>a:hover{
+    background-color: #495057 !important ;
+}
+.widget-menu .menu-icon{
+    color:white;
+}
+.module{
+    border-radius: 10px;
+}
+.module-head {
+  padding: 20px 20px;
+}

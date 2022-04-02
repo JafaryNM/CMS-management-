@@ -227,12 +227,12 @@ ul.top-menu > li > .logout {
 
 
 /*sidebar navigation*/
-
+f
 #sidebar {
     width: 210px;
     height: 100%;
     position: fixed;
-    background: #424a5d;
+    background: red;
 }
 
 #sidebar h5 {

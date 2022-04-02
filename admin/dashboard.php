@@ -21,6 +21,7 @@ $currentTime = date( 'd-m-Y h:i:s A', time () );
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
+	<link type="text/css" href="css/mystyles.css" rel="stylesheet">
 	<link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
 	<link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
 
@@ -68,21 +69,21 @@ while($row=mysqli_fetch_array($rt))
 		<th style="color:#000;text-align:center; font-size:14px;"><a href="notprocess-complaint.php"><?php echo $row['notprocessedyet'];?></a></th>
 		<th style="color:#000;text-align:center;font-size:14px"><a href="inprocess-complaint.php"><?php echo $row['inprocess'];?></a></th>
 		<th style="color:#000;text-align:center;font-size:14px"><a href="notforwared-pending-complaints.php"><?php echo $row['notforwardedyet'];?></a></th>
-		<th style="color:#000;text-align:center;font-size:14px"><a href="closed-complaint.php"><?php echo $row['closed'];?></a></th>
+		<th style="color:#33a186;text-align:center;font-size:14px"><a href="closed-complaint.php"><?php echo $row['closed'];?></a></th>
 	</tr>
 <?php } ?>
 </table>
 
 
-<h3 style="padding-left: 2%; padding-top:3%; color:blue">Sub Admin Data</h3>
+<h3 style="padding-left: 2%; padding-top:3%; color:#017bb1">Sub Admin Data</h3>
 <hr />
-<table border="2" align="center" width="80%" style="">
+<table border="" align="center" width="80%" style="">
 	<tr>
 		<th style="color:#000;text-align:center; font-size:16px;">Subadmin Name /Dept</th>
 		<th style="color:#000;text-align:center; font-size:16px;">Total</th>
-		<th style="color:red;text-align:center; font-size:16px;">Not Processed Yet</th>
-		<th style="color:orange;text-align:center;font-size:16px">In Process</th>
-		<th style="color:green;text-align:center;font-size:16px">Closed</th>
+		<th style="color:##fc931d;text-align:center; font-size:16px;">Not Processed Yet</th>
+		<th style="color:#fc931d;text-align:center;font-size:16px">In Process</th>
+		<th style="color:#33a186;text-align:center;font-size:16px">Closed</th>
 	</tr>
 
 												<?php
@@ -147,5 +148,6 @@ $gtc+=$tc;
 			$('.dataTables_paginate > a:last-child').append('<i class="icon-chevron-right shaded"></i>');
 		} );
 	</script>
+
 </body>
 <?php } ?>
